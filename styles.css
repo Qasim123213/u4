@@ -1,0 +1,39 @@
+body {
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    display: flex;
+}
+
+article,
+footer {
+    background-color: bisque;
+}
+
+article {
+    padding: 0 10px;
+
+}
+
+main {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px
+}
+
+footer {
+    margin-top: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
